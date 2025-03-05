@@ -30,6 +30,14 @@
     background-color: #BBF0DD
   &-7
     background-color: #D4DDF0
+  &-8
+    background-color: #01899B
+  &-9
+    background-color: #A4F1D6
+  &-10
+    background-color: #E8EDF7
+  &-11
+    background-color: #E3FBF2
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -54,16 +62,24 @@
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
 
 .bg-fondo
   &-1
-    background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/bg/bg1.svg") !important
     background-position: top
   &-2
     // background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/bg/bg-slider.svg") !important
     background-position: bottom
 
 .bg-h85
@@ -78,13 +94,35 @@
     transform: translateY(-9%)
     background-color: #FBEADF
     z-index: 0
-  .col-lg-10, .col-lg-12, .row
+  .col-lg-10, .col-lg-12, .row,
     z-index: 1
   @media screen and (max-width: $bp-max-md)
     padding: 1rem
   
     &::after
       height: 100%
+.bg-h85-2
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: -3%
+    left: 24%
+    width: 50%
+    height: 90%
+    transform: translateY(-9%)
+    background-color: #E8EDF7
+    z-index: 0
+  .col-lg-4, .col-lg-12, .row,
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+  
+    &::after
+      height: 100%
+.pst
+  .tabla-a table
+    min-width: 500px !important
 // Variables
 $custom-card-border-radius: 0px
 $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
