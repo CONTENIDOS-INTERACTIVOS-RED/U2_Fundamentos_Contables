@@ -14,10 +14,10 @@
                 img.img-fluid(src='@/assets/curso/intro/1.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
 
     .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
+      .col-lg-4.mb-3.mb-lg-0.order-2.order-lg-1
         figure
           img(src="@/assets/curso/intro/2.png", data-aos="zoom-in")
-      .col-lg-8
+      .col-lg-8.order-1.order-lg-2
         .bg-color-1.p-5.mb-3(data-aos="fade-left")
           p.mb-0 El propósito de esta unidad es formar profesionales capaces de aplicar metodologías en el análisis de estados financieros, considerando la normatividad vigente. Al finalizar la unidad, los estudiantes deberán ser capaces de identificar y clasificar los elementos de la información financiera, y de interpretar esta información para la toma de decisiones, utilizando herramientas como los libros de contabilidad, el plan de cuentas, los comprobantes de contabilidad, los ciclos de transacciones y los asientos contables y de ajustes.
         p(data-aos="fade-left") Para lograr estos objetivos, se trabajará con casos prácticos y simulaciones que permitirán aplicar los conceptos aprendidos en situaciones reales. Además, se explicarán los procesos fundamentales como el uso del libro diario y el libro mayor, y cómo los papeles de trabajo y los ajustes contables afectan los estados financieros.

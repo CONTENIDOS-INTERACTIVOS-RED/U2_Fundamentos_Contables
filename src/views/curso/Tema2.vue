@@ -179,7 +179,7 @@
     p.mb-4 Los ajustes contables permiten reflejar con precisión la situación financiera de una empresa, asegurando que los ingresos y gastos se reconozcan en el período correspondiente. A continuación, se presentan algunos ejemplos prácticos de su aplicación.
 
     .row.mb-5
-      .col-lg-6
+      .col-lg-6.mb-3
         h3.mb-5(data-aos="fade-left") Ejemplo 1: ajuste por gasto de seguro
         .bg-color-10.p-4.mb-3(data-aos="fade-left")
           p.mb-0 Cuando una empresa paga por adelantado un seguro anual, es necesario registrar mensualmente el gasto correspondiente para reflejar con precisión el período transcurrido.
@@ -241,7 +241,7 @@
           img(src="@/assets/curso/tema2/14.svg", data-aos="zoom-in")
     
     .row.mb-5
-      .col-lg-6
+      .col-lg-6.mb-3
         h3(data-aos="fade-left") Ejemplo 3: ajuste por depreciación de activos fijos
         .bg-color-5.p-4.mb-3(data-aos="fade-left")
           p.mb-0 La depreciación permite distribuir el costo de un activo a lo largo de su vida útil, asegurando que los estados financieros reflejen su desgaste.
@@ -329,6 +329,8 @@
 <script>
 export default {
   name: 'Tema2',
+  data: () => ({}),
+
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

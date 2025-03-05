@@ -14,7 +14,7 @@
         p(data-aos="fade-left") Dominar los fundamentos de la contabilidad y su clasificación es esencial para interpretar el entorno financiero de cualquier empresa y tomar decisiones que promuevan su sostenibilidad y competitividad en el mercado.
 
     #t_1_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.1] 1.1.	Estructura del plan de cuentas
+      h2 #[span 1.1] Estructura del plan de cuentas
     
     .row.mb-5
       .col-lg-5.mb-3.mb-lg-0.order-1.order-lg-2
