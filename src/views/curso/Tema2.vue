@@ -86,10 +86,10 @@
     p.mb-5 Las características fundamentales de los comprobantes de contabilidad son: 
 
     TabsC.color-acento-contenido.mb-5
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Legalida" :icon="require('@/assets/bullets/1.svg')")
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Legalidad" :icon="require('@/assets/bullets/1.svg')")
         .row.justify-content-center
           .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2.align-content-center
-            h4 Legalida
+            h4 Legalidad
             p Cumplen con los requisitos fiscales y contables vigentes.
     
           .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
@@ -171,7 +171,7 @@
       .p-4.p-md-5
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            <iframe width="1905" height="748" src="https://www.youtube.com/embed/hXnrp75YiWM" title="Ajustes contables: pasos claves para una correcta aplicación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
     #t_2_3.titulo-segundo(data-aos="flip-up")
       h2 #[span 2.3] Ejemplos prácticos de ajustes contables
@@ -312,9 +312,7 @@
               a(href="https://contabilidadfinanzas.com/contabilidad-financiera/ajustes-contables/" target="_blank" rel="noopener noreferrer") Contabilidad y Finanzas. (2023). Ajustes Contables: Guía Fundamental Paso a Paso. 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://contabilidadfinanzas.com/contabilidad-financiera/ajustes-contables/" target="_blank" rel="noopener noreferrer") Contabilidad y Finanzas. (2023). Ajustes Contables: Guía Fundamental Paso a Paso. 
-
-            
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/271541?page=1" target="_blank" rel="noopener noreferrer") Sánchez Morales, F. (2024). Fundamentos de contabilidad financiera: (1 ed.). Editorial Universitaria de Chile.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
